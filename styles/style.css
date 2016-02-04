@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-size: 0px; 
+}
+#container {
+	max-width: 68.2%;
+	margin: auto;
+}
+.row > div {
+	margin-top: 50px;
+	display: inline-block;
+	vertical-align: top;
+}
+.timestamp{
+	text-align: right; 
+	width: 20%;
+}
+.content {
+	background: rgb(88,176, 236);
+	font-size: 16px; 
+	width: 60%;
+	padding: 25px; 
+	position: relative;
+	border-radius: 1%;
+}
+#square {
+	background: rgb(88,176,236);
+	height: 25px;
+	width: 25px; 
+	position: absolute;
+	top: 3%;
+	left: -2%;
+	-webkit-transform: rotate(45deg);
+}
+.icon {
+	width: 20%;
+	text-align: center;
+	color: rgb(88,176,236);
+	vertical-align: top;
+	display: inline-block;
+}
+.googleicons {
+	border-radius: 50%;
+	border: 10px solid; 
+	background: white; 
+	padding: 10px;
+}
+.stick {
+	background: rgb(88,176,236);
+	height: 300px;  
+	width: 7%; 
+	margin: auto;
+	margin-top: -5px; 
+	text-align: center; 
+}
+h1 {
+	color: white;
+}
+p {
+	color: white; 
+}
+h2 {
+	color: gray;
+	font-size: 16px;
+	margin-bottom: -10px;  
+}
+h3 {
+	color: rgb(88,176,236);
+	font-size: 30px; 
+	margin-top: 10px;
+}
+@media only screen and (max-width: 767px) {
+	h3 {
+		font-size: 24px; 
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.row .content {
+		display: block; 
+		width: 100%; 
+		margin-top: -10px;
+	}
+	.stick {
+		visibility: hidden;
+	}
+	.row .icon {
+		float: right;		
+	}
+}
+
+
+
+
+
+
